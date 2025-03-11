@@ -1,4 +1,5 @@
 import type {
+  CommentConfig,
   LicenseConfig,
   NavBarConfig,
   ProfileConfig,
@@ -79,4 +80,21 @@ export const licenseConfig: LicenseConfig = {
   enable: true,
   name: 'CC BY-NC-SA 4.0',
   url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+}
+
+export const commentConfig: CommentConfig = {
+  giscus: {
+    repo: 'Kemeow815/astro-v4',
+    repoId: 'R_kgDON8wWbA',
+    category: 'General',
+    categoryId: 'IC_kwDON8wWbM4Cn0OK',
+    mapping: 'title',
+    strict: '0',
+    reactionsEnabled: '1',
+    emitMetadata: '1',
+    inputPosition: 'top',
+    theme: 'preferred_color_scheme',
+    lang: 'zh-CN',
+    loading: 'lazy',
+  },
 }
