@@ -83,18 +83,21 @@ export const licenseConfig: LicenseConfig = {
 }
 
 export const commentConfig: CommentConfig = {
-  giscus: {
-    repo: 'Kemeow815/astro-v4',
-    repoId: 'R_kgDON8wWbA',
-    category: 'General',
-    categoryId: 'IC_kwDON8wWbM4Cn0OK',
-    mapping: 'title',
-    strict: '0',
-    reactionsEnabled: '1',
-    emitMetadata: '1',
-    inputPosition: 'top',
-    theme: 'preferred_color_scheme',
-    lang: 'zh-CN',
-    loading: 'lazy',
+  // giscus: {
+  //   repo: 'Kemeow815/astro-v4',
+  //   repoId: 'R_kgDON8wWbA',
+  //   category: 'General',
+  //   categoryId: 'IC_kwDON8wWbM4Cn0OK',
+  //   mapping: 'title',
+  //   strict: '0',
+  //   reactionsEnabled: '1',
+  //   emitMetadata: '1',
+  //   inputPosition: 'top',
+  //   theme: 'preferred_color_scheme',
+  //   lang: 'zh-CN',
+  //   loading: 'lazy',
+  // },
+    disqus: {
+    shortname: 'nblog-5',
   },
 }
